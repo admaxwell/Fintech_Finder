@@ -1,7 +1,8 @@
 # Fintech Finder
 
 
-This project uses Python, Vscode, Streamlit and the Ganache test net to create a python application that has been integrated with the Ethereum blockchain. The application name is called Fintech Finder and its purpose is to connect business with qualified fintech professional to hire on an hourly or fulltime basis. With the integration of the Ethereum blockchain into the application business owners (the customer) will be able to pay a fintech professional instantly. The application allows the business owner(the customer) to do the following:
+This project uses Python, Vscode, Streamlit and the Ganache test net to create a python application that has been integrated with the Ethereum blockchain. The application name is called Fintech Finder and its purpose is to connect business with qualified fintech professionals to hire on an hourly or fulltime basis. With the integration of the Ethereum blockchain into the application business owners (the customer) will be able to pay a fintech professional instantly. The application allows the business owner(the customer) to do the following:
+
 
 1) Set up an account and fund it with Ethereum.
 2) Displays the account owners address.
@@ -9,7 +10,9 @@ This project uses Python, Vscode, Streamlit and the Ganache test net to create a
 4) Search for a fintech professional and review the canadidates profile.
 5) Calculate the total value of an Ethereum transaction, including the gas estimate, that pays a Fintech Finder candidate for their work.
 6) Review the transaction hash code associated with the validated blockchain transaction.
+
 ---
+
 
 ## Technologies
 
