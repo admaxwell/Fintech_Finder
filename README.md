@@ -60,4 +60,7 @@ email: antiwan.maxwell@outlook.com
 
 ---
 
+
 ## License
+
+MIT
