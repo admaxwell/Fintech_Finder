@@ -1,45 +1,21 @@
 # Fintech Finder
 
-You work at a startup that is building a new and disruptive platform called Fintech Finder. Fintech Finder is an application that its customers can use to find fintech professionals from among a list of candidates, hire them, and pay them. As Fintech Finder’s lead developer, you have been tasked with integrating the Ethereum blockchain network into the application in order to enable your customers to instantly pay the fintech professionals whom they hire with cryptocurrency.
 
-In this Challenge, you will complete the code that enables your customers to send cryptocurrency payments to fintech professionals. To develop the code and test it out, you will assume the perspective of a Fintech Finder customer who is using the application to find a fintech professional and pay them for their work.
+This project uses Python, Vscode, Streamlit and the Ganache test net to create a python application that has been integrated with the Ethereum blockchain. The application name is called Fintech Finder and its purpose is to connect business with qualified fintech professional to hire on an hourly or fulltime basis. With the integration of the Ethereum blockchain into the application business owners (customers) will be able to pay a fintech professional instantly. The application allows the business owner( customer) to do the following:
 
-To complete this Challenge, you will use two Python files, both of which are contained in the starter folder.
-
-The first file that you will use is called fintech_finder.py. It contains the code associated with the web interface of your application. The code included in this file is compatible with the Streamlit library. You will write all of your code for this Challenge in this file.
-
-The second file that you will use is called crypto_wallet.py. This file contains the Ethereum transaction functions that you have created throughout this module’s lessons. By using import statements, you will integrate the crypto_wallet.py Python script into the Fintech Finder interface program that is found in the fintech_finder.py file.
-
-Integrating these two files will allow you to automate the tasks associated with generating a digital wallet, accessing Ethereum account balances, and signing and sending transactions via a personal Ethereum blockchain called Ganache.
-
-Specifically, you will assume the perspective of a Fintech Finder customer in order to do the following:
-
-Generate a new Ethereum account instance by using the mnemonic seed phrase provided by Ganache.
-
-Fetch and display the account balance associated with your Ethereum account address.
-
-Calculate the total value of an Ethereum transaction, including the gas estimate, that pays a Fintech Finder candidate for their work.
-
-Digitally sign a transaction that pays a Fintech Finder candidate, and send this transaction to the Ganache blockchain.
-
-Review the transaction hash code associated with the validated blockchain transaction.
-
-Once you receive the transaction’s hash code, you will navigate to the Transactions section of Ganache to review the blockchain transaction details. To confirm that you have successfully created the transaction, you will save screenshots to the README.md file of your GitHub repository for this Challenge assignment.
-
-
-
-This project produces a Jupyter Notebook that uses machine learning to assess credit risk. Using the imbalanced-learn library a logistic regression model will be built to compare healthy loans vs non healthy loans to determine credit risk. The models built in this project will use histroical data that is provided by a lending service company that focuses on peer to peer lending. 
-
-
-
+1) Set up an account and fund it with Ethereum.
+2) Displays the account owners address.
+3) Displays the owners account current account balance before and after each transaction.
+4) Search for a fintech professional and review the canadidates profile.
+5) Calculate the total value of an Ethereum transaction, including the gas estimate, that pays a Fintech Finder candidate for their work.
+6) Review the transaction hash code associated with the validated blockchain transaction.
 ---
 
 ## Technologies
 
 This project leverages python 3.7 with the following packages:
 
-* [pandas](https://pandas.pydata.org/docs/getting_started/install.html) - For summary statistics, visulizations, and times series analysis.
-* [jupyter lab](https://jupyter.org/install) - JupyterLab is the latest web-based interactive development environment for notebooks, code, and data.
+* [streamlit](https://streamlit.io/) - Streamlit is an open-source app framework for Machine Learning and Data Science teams. Create beautiful web apps in minutes.
 
 * Visual Studio Code Version: 1.70.2 (Universal)
 Commit: e4503b30fc78200f846c62cf8091b76ff5547662
