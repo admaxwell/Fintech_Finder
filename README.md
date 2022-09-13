@@ -1,1 +1,1 @@
-# Fintech_Finder
+# Fintech Finder
